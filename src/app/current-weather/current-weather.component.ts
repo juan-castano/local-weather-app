@@ -9,7 +9,6 @@ import { ICurrentWeather } from '../interfaces'
 })
 export class CurrentWeatherComponent implements OnInit {
   current: ICurrentWeather
-
   constructor() {
     this.current = {
       city: 'Bethesda',
